@@ -16,7 +16,8 @@
    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-       <!-- Bootstrap Core CSS -->
+    <!--yinliangwu: to make it boostrap style-->
+    <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="/css/blog.css" rel="stylesheet">
@@ -68,27 +69,41 @@ var WRInitTime=(new Date()).getTime();
 
               </a>
             </li>
+			<!--
             <li>
               <a href="/resume/index.html">
                 关 于
 
               </a>
             </li>
+			-->
           </ul>
         </div>
         <!-- /.navbar-collapse -->
       </div>
       <!-- /.container -->
     </nav>
- 
+ <!--
 <div class="site">
   <div class="title">
     <a href="/">Tom Preston-Werner</a>
     <a class="extra" href="/">home</a>
   </div>
+ -->
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+          {{ content }}
+        </div>
+	  </div>
+	</div> 
   
-  {{ content }}
-  
+
+
+
+
   <div class="footer">
     <div class="contact">
       <p>
