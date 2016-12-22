@@ -5,10 +5,9 @@ title: "中国往事 | CNV4.COM"
 <h1 class="page-header"> 惟有变化，才是永恒！</h1>
 
 {% for post in paginator.posts %}
-	<h2>
-	  <a href="{{ post.url }}">
+	<h2>	  
 	    {{ post.title }}
-	  </a> 
+	  
 	  <div class="post-date">
 		<span class="glyphicon glyphicon-time"></span>
 		{{ post.date | date_to_string }}
@@ -16,6 +15,12 @@ title: "中国往事 | CNV4.COM"
 	</h2>
 	<hr>
 	{{ post.excerpt | strip_html }}	
+	
+	<ul class="pager">
+  	  <li class="previous"> 
+  	  	<a href="{{ post.url }}"> 阅读故事... </a> 
+  	  </li>
+  </u>
 {% endfor %}
 
 <!-- Pager -->
