@@ -16,14 +16,21 @@ title: "中国往事 | CNV4.COM"
 	<hr>
 	
 	{% if post.content contains '<!--more-->' %}
-	{{ post.excerpt }}	
-	
-	<ul class="pager">
-  	  <li class="previous"> 
-  	  	<a href="{{ post.url }}"> 阅读故事... </a> 
-  	  </li>
-  </ul>
-  	{% endif %} 
+		{{ post.excerpt }}		
+			<ul class="pager">
+		  	  <li class="previous"> 
+		  	  	<a href="{{ post.url }}"> 阅读故事... </a> 
+		  	  </li>
+		  </ul>
+	{% endif %} 
+	{% else %}
+		{{ post.content | truncatewords:50 | strip_html }}
+		<ul class="pager">
+		  	  <li class="previous"> 
+		  	  	<a href="{{ post.url }}"> 阅读故事... </a> 
+		  	  </li>
+		  </ul>
+	{% endif %} 
 {% endfor %}
 
 <!-- Pager -->
