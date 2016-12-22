@@ -14,6 +14,8 @@ title: "中国往事 | CNV4.COM"
 	  </div>
 	</h2>
 	<hr>
+	
+	 {% if post.excerpt %} 
 	{{ post.excerpt }}	
 	
 	<ul class="pager">
@@ -21,6 +23,7 @@ title: "中国往事 | CNV4.COM"
   	  	<a href="{{ post.url }}"> 阅读故事... </a> 
   	  </li>
   </ul>
+  	{% endif %} 
 {% endfor %}
 
 <!-- Pager -->

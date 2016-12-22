@@ -119,22 +119,3 @@ polygon(x1[c(50, 50, 51:55, 55)], c(0, y1[50:55], 0), border = 1,
 </code></pre>
 
 ![](http://gaolei786.github.io/images/curve5.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
