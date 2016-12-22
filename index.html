@@ -15,7 +15,7 @@ title: "中国往事 | CNV4.COM"
 	</h2>
 	<hr>
 	
-	 {% if post.abstract %} 
+	{% if post.content contains '<!--more-->' %}
 	{{ post.excerpt }}	
 	
 	<ul class="pager">
