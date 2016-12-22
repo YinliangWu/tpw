@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 画一条平滑曲线
-author: <a href="http://gaolei786.github.com/">GaoLei</a>
+author: <a href="http:// /"> </a>
 categories:
 - R
 
@@ -10,7 +10,7 @@ show_img: "/images/curve1.png"
 ---
 
 “魔鬼就在细节里”，所言不虚。如何画一条平滑的曲线，看似一个简单的问题，动手来做，就会发现没有你想象的那么简单。
-
+<pre>fdsfdsfsdfsdf</pre>
 比如下面这张图：
 
 ![curve](http://gaolei786.github.io/images/curve1.png)
