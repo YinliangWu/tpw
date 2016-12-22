@@ -38,6 +38,8 @@ layout: default
    
 <ul class="pager"> 
 	<li class="previous"> <a href="{{page.previous.url}}">上篇: {{page.previous.title}} </a> </li>
+	{%endif%} 
+  {%if page.next%}
 	<li class="next">  <a href="{{page.next.url}}">下篇: {{page.next.title}}  </a>  </li>
 </ul>
   {%endif%} 
