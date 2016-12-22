@@ -5,16 +5,8 @@ title: "中国往事 | CNV4.COM"
 <h1 class="page-header"> 惟有变化，才是永恒！</h1>
 
 {% for post in paginator.posts %}
-	<h2>	  
-	    {{ post.title }}
-	  
-	  <div class="post-date">
-		<span class="glyphicon glyphicon-time"></span>
-		{{ post.date | date_to_string }}
-	  </div>
-	</h2>
-	<hr>
-	
+	<h2> {{ post.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div> </h2>
+	<hr>	
 	{% if post.abstract %}
 		{{ post.abstract }}		
 	{% else %}
@@ -24,7 +16,7 @@ title: "中国往事 | CNV4.COM"
 			{{ post.content | truncatewords:120 | strip_html}}		
 	 {% endif %} 
 	{% endif %}
-	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}"> 阅读故事... </a> </li> </ul>	
+	<ul class="pager"> <li class="next"> <a href="{{ post.url }}"> 阅读故事... </a> </li> </ul>	
 {% endfor %}
 
 <!-- Pager -->
