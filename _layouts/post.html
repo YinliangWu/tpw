@@ -16,7 +16,7 @@ layout: default
 <br/>
 <div style="margin-top:10px;margin-bottom:10px">
   {%if page.previous%}
-  <span class="next">
+  <span class="prev" align="left" >
     上篇：
     <a href="{{page.previous.url}}">
       {{page.previous.title}}
@@ -24,7 +24,7 @@ layout: default
   </span>
   {%endif%} 
   {%if page.next%}
-  <span class="prev">
+  <span class="next" align="right">
     下篇：
     <a href="{{page.next.url}}">
       {{page.next.title}}
