@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: search
 title: "搜索：Search"
 ---
