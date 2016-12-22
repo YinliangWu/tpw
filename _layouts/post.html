@@ -17,7 +17,7 @@ layout: default
 
 
 <div style="margin-top:10px;margin-bottom:10px">
-<ul class="pager"> 	
+
   {%if page.previous%}
   <!--
   <span class="prev"   >
@@ -36,16 +36,16 @@ layout: default
   </span>
    -->
    
-
-	<li class="previous"> <a href="{{page.previous.url}}"> 上篇: {{page.previous.title}} </a> </li>
-
+<ul class="pager"> 	
+	<li class="previous"> <a href="{{page.previous.url}}"> 上篇: {{page.previous.title}} </a> </li> 
+</ul>
 	{%endif%} 
   {%if page.next%}
-  
+ <ul>
 	<li class="next">  <a href="{{page.next.url}}"> 下篇: {{page.next.title}}  </a>  </li>
-
+</ul>
   {%endif%} 
-  </ul>
+  
 </div>
 
 
