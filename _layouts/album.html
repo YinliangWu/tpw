@@ -144,16 +144,21 @@
      	  <br><br>
         <div class="row" style="text-align:center; border-bottom:1px dashed #ccc;  padding:0 0 20px 0; margin-bottom:40px;">
             <h3 style="font-family:'Bree Serif', arial; font-weight:bold; font-size:30px;">
-                Album Title sample
+                {{ page.title }}
             </h3>
-            <p>相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字相册说明文字</p>
+            <p>
+            	{{ page.abstract }}
+            </p>
         </div>
-<!--more-->
+ 
         <ul class="row first">
+        	{% for photos in page.photos %}
             <li>
-                <img alt="Rocking the night away"  src="http://demo.michaelsoriano.com/images/photodune-174908-rocking-the-night-away-xs.jpg">
-                <div class="text">Consectetur adipiscing elit</div>
+                <img alt="{{ photo.alt}}"  src="{{ photo.url }}">
+                <div class="text">{{ photo.label }}</div>
             </li>
+          {% endfor %}
+           <!--
             <li>
                 <img alt="Yellow sign"  src="http://demo.michaelsoriano.com/images/photodune-287182-blah-blah-blah-yellow-road-sign-xs.jpg">
                 <div class="text">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minim veniam</div>
@@ -178,10 +183,12 @@
                 <img alt="Nature shot"  src="http://demo.michaelsoriano.com/images/photodune-1062948-nature-xs.jpg">
                 <div class="text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
             </li>
+            
             <li>
                 <img alt="Kid with camera" src="http://demo.michaelsoriano.com/images/photodune-1471528-insant-camera-kid-xs.jpg" data-bsp-large-src="http://demo.michaelsoriano.com/images/photodune-1471528-insant-camera-kid-large.jpg">
                 <div class="text">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minim veniam</div>
             </li>
+            -->
         </ul>
     </div> <!-- /container --> 
       <!-- /.row -->
