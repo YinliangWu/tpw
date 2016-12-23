@@ -8,16 +8,22 @@
     <meta name="author" content="">
     <title> {{ page.title }} </title>
     
-        <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js">
-    </script>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <!--
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    -->
+    
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js">
-    </script>
-    
-    
+    <script src="js/bootstrap.min.js"></script>    
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!--
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    -->
+    
+    
     <!-- Custom CSS -->
     <link href="/css/blog.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
@@ -60,8 +66,45 @@
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
+<!-- galary -->
+<link href="../jquery.bsPhotoGallery/jquery.bsPhotoGallery.css" rel="stylesheet">
+<script src="../jquery.bsPhotoGallery/jquery.bsPhotoGallery.js"></script> 
+<script>
+    $(document).ready(function(){
+      $('ul.first').bsPhotoGallery({
+        "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+        "hasModal" : true,
+        // "fullHeight" : false
+      });
+    });
+  </script>    
+ <style>
+    @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+      body {
+        background:#ebebeb;
+      }
+      ul {
+          padding:0 0 0 0;
+          margin:0 0 40px 0;
+      }
+      ul li {
+          list-style:none;
+          margin-bottom:10px;
+      }
+
+    .text {
+      /*font-family: 'Bree Serif';*/
+      color:#666;
+      font-size:11px;
+      margin-bottom:10px;
+      padding:12px;
+      background:#fff;
+    } 
+  </style> 
   </head>
-  
+ 
   <body>
     <!-- Navigation -->
     <style type="text/css">
