@@ -154,8 +154,8 @@
         <ul class="row first">
         	{% for photos in page.photos %}
             <li>
-                <img alt="{{ photo.alt}}"  src="{{ photo.url }}">
-                <div class="text">{{ photo.label }}</div>
+                <img alt="{{ photo[0]}}"  src="{{ photo[1] }}">
+                <div class="text">{{ photo[2] }}</div>
             </li>
           {% endfor %}
            <!--
