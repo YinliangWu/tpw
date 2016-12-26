@@ -15,5 +15,4 @@ abstract: 艺术撰写的签字文经典。
   <p>It appears you don't have a PDF plugin for this browser.
    No biggie... you can <a href="resume.pdf">click here to
   download the PDF file.</a></p>  
- </object>
- </div>
+</object>
