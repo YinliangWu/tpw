@@ -1,0 +1,20 @@
+---
+layout: album
+title: 画册1
+author: 
+tags: [R]
+categories:
+- 艺术
+
+abstract: 本画册收录了唐伯虎同学著名的仕女图，包括晚期的很多的作品。
+photos:
+- label: Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minim veniam
+  url: http://demo.michaelsoriano.com/images/photodune-287182-blah-blah-blah-yellow-road-sign-xs.jpg
+  alt: Yellow sign
+- label: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+  url: http://demo.michaelsoriano.com/images/photodune-460760-colors-xs.jpg
+  alt: Colors
+- label: Lorem, do eiusmod tempor incid Ut enim ad minim veniam
+  url: http://demo.michaelsoriano.com/images/photodune-461673-retro-party-xs.jpg
+  alt: Retro party
+---
