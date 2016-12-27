@@ -10,9 +10,7 @@ abstract: "书法家撰写的国学经典《千字文》: 天地玄黄　宇宙�
 ---
 
 <h2>互联网上最美的千字文</h2>
-<!-- <br><a href="http://www.cnv4.com/images/The Thousand Character Classic.pdf">下载</a>-->
-<br>敕员外散骑侍郎　周兴嗣撰　夫子子夫制
-<br>
+<br>敕员外散骑侍郎　周兴嗣撰　夫子子夫制 <a href="http://www.cnv4.com/images/The Thousand Character Classic.pdf">下载</a>
 <object data="http://www.cnv4.com/images/The Thousand Character Classic.pdf" type="application/pdf" width="100%" height="800px"> 
   <p>It appears you don't have a PDF plugin for this browser.
    No biggie... you can <a href="resume.pdf">click here to
