@@ -2,11 +2,13 @@
 layout: post
 title: 苏轼《水调歌头》英译
 author: 许渊冲 朱纯深
-tags: [tag1 tag2]
 category:
 - 宋词
 - 英译
 ---
+
+{{ page.title }}
+================
 
 水调歌头
 
