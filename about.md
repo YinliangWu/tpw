@@ -1,5 +1,5 @@
 ---
-layout:  
+layout: default2
 title: "关于：About"
 ---
 
