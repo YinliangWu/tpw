@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Readme Driven Development
+category:
+- R
 ---
 
 {{ page.title }}
