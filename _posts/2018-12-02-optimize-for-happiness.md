@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Optimize for Happiness
+comments: true
 ---
 
 {{ page.title }}

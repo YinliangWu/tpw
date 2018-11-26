@@ -3,6 +3,7 @@ layout: post
 title: Readme Driven Development
 category:
 - R
+comments: true
 ---
 
 {{ page.title }}
