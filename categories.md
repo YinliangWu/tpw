@@ -6,7 +6,7 @@ title: "分类: Categories"
 {% for cat in site.categories %} 
 	{% if cat[0] != 'blog' %} 
    <a name="{{ cat[0] }}"></a>
-   <h4>{{ cat[0] }} [{{ cat[1].size }}]</h4> 
+   <h3>{{ cat[0] }} [{{ cat[1].size }}]</h3> 
      {% for post in cat[1] %} 
     <li><h4> <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div> <a href="{{ post.url }}">{{ post.title }}</a></h4></li>
 	{% endfor %} 
