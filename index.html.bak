@@ -19,7 +19,7 @@ title: "中国往事 | CNV4.COM"
 			{{ post.content | truncatewords:120 | strip_html}}		
 	 {% endif %} 
 	{% endif %}
-	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}"> 全文... </a> </li> </ul>	
+	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}"> 阅览... </a> </li> </ul>	
 {% endfor %}
 
 <!-- Pager -->
