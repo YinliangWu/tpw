@@ -8,7 +8,6 @@ categories:
 - ำขา๋
 ---
 
-<!-- abstract: Abstract text -->
 หฎต๗ธ่อท
 
 หี้๘
