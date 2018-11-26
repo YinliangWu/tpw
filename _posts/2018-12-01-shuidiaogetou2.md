@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 苏轼《水调歌头》英译
-author: 许渊冲 朱纯深
+title: Readme Driven Development
 category:
-- 宋词
-- 英译
+- R
 ---
 
 {{ page.title }}
 ================
+
+<p class="meta">23 August 2010 - San Francisco</p>
 
 水调歌头
 
@@ -294,3 +294,7 @@ The immortal moon even though
  
 
 （朱纯深 译）
+
+--
+
+[Discuss this post on Hacker News](http://news.ycombinator.com/item?id=1627246)
