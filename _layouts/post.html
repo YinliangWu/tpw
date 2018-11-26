@@ -4,40 +4,25 @@ layout: default
 <!-- Blog Post -->
 <!-- Title -->
 <h2>
-  {{ page.title }}
-  <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
-	{{ page.date | date_to_string }}
-  </div>
+  {{ page.title }} 
+  <div class="post-date"> <span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_string }} </div>
 </h2>
+
 <!-- Author -->
 <hr>
 {{ content }}
 <br/>
 
-
-
-
 <div style="margin-top:10px;margin-bottom:10px">
-<ul class="pager"> 	
+  <ul class="pager"> 	
   {%if page.previous%}
- 
-   
-
-	<li class="previous"> <a href="{{page.previous.url}}"> 上篇: {{page.previous.title}} </a> </li> 
- 
-	{%endif%} 
+    <li class="previous"> <a href="{{page.previous.url}}"> 上篇: {{page.previous.title}} </a> </li> 
+ 	{%endif%} 
   {%if page.next%}
- 
-	<li class="next">  <a href="{{page.next.url}}"> 下篇: {{page.next.title}}  </a>  </li>
-
+   <li class="next">  <a href="{{page.next.url}}"> 下篇: {{page.next.title}}  </a>  </li>
   {%endif%} 
   </ul>
 </div>
-
-
-
-
 
 <hr>
 <!-- Blog Comments -->
