@@ -6,6 +6,7 @@ tags: [tag1 tag2]
 category:
 - 爱好
 comments: true 
+abstract: How long will the full moon appear? Wine cup in hand, I ask the sky. I do not know what time of the year ’T would be tonight in the palace on high. Riding the wind, there I would fly, Yet I’m afraid the crystalline palace would be Too high and cold for me. I rise and dance, with my shadow I play. On high as on earth, would it be as gay?
 ---
 
 Prelude to Water Melody
