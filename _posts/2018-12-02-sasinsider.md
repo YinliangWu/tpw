@@ -15,13 +15,5 @@ category:
 书中演示代码力图简洁清晰地解释相关概念，追求大道至简。本书兼顾编程技术与数据分析，期待程序员、信息处理与统计分析人员以及对数据分析科学感兴趣的读者都能从本书中获益良多，循序渐进地掌握数据分析的要义和精髓，从数据中获取洞见与智慧。    
  <a href='http://www.tup.tsinghua.edu.cn/booksCenter/books_index.html'> <img src='/images/sasinsider.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" style="border:none;background:none;">  </a>  
  
-出版信息与购买: <a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html">点击进入</a>
-
-作者简介
-
-巫银良  SAS 中国研发中心技术总监，北京大学信息科学技术学院客座教授。主要负责 SAS 中国研发中心大数据与可视化分析技术、可视化数据挖掘与机器学习、商业智能和移动应用等产品线的项目管理。
-
-毕业于北京大学，获理学学士和硕士学位。拥有近 20 年计算机行业研发和管理经验，在企业应用和商业分析领域有深厚的技术功底。专注于研发管理和项目实践，涉及领域包括人工智能、大数据与可视化分析、金融量化分析与自动交易、商业智能与互联网、大型商业软件研发管理等。
-
-
-
+出版信息与购买: <a class="btn btn-default" href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html">点击进入</a>
+ 
