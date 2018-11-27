@@ -20,11 +20,6 @@ body{
 	margin:auto;
 }
 
-.flipbook-viewport .flipbook{
-	width:922px;
-	height:600px;	
-	
-}
 
 .flipbook-viewport .page{
 	width:922px;
