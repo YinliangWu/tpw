@@ -82,14 +82,14 @@ function loadApp() {
 	$('.flipbook').turn({
 			// Width
 
-			width:1080,
+			 
 			
 					
 			display: "single",
 			
 			// Height
 
-		 
+			height:980,
 
 			// Elevation
 
