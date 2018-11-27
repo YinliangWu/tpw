@@ -21,14 +21,14 @@ body{
 }
 
 .flipbook-viewport .flipbook{
-	width:614px;
-	height:798px;	
-	top:-600px;
+	width:640px;
+	height:891px;
+	left:-320px;
 }
 
 .flipbook-viewport .page{
-	width:614px;
-	height:798px;
+	width:640px;
+	height:891px;
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
