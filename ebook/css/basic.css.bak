@@ -21,9 +21,9 @@ body{
 }
 
 .flipbook-viewport .flipbook{
-	width:922px;
+	width:1080px;
 	height:1200px;
-	left:-231px;
+	left:-307px;
 	top:-400px;
 }
 
