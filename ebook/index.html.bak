@@ -81,9 +81,9 @@ function loadApp() {
 	// Create the flipbook
 	$('.flipbook').turn({
 			// Width
-	    width:704,//$('.flipbook').width(),//704,		 
+	    width:$('.flipbook').width(),//704,		 
 			// Height
-			height:942,//$('.flipbook').height(),//1080-100-38,
+			height:$('.flipbook').height(),//1080-100-38,
 					
 			display: "single",	
 			// Elevation
