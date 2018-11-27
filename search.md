@@ -1,4 +1,4 @@
 ---
 layout: search
-title: "中国网事 | 搜索文章"
+title: "韦氏传媒 | 搜索"
 ---

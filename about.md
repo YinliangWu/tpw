@@ -1,6 +1,6 @@
 ﻿---
 layout: default2
-title: "中国网事 | 关于"
+title: "韦氏传媒 | 关于"
 ---
 
-<font color='gray' align='center'></font>
+<img src="/images/logo.png"/><font color='gray' align='center'>韦氏传媒</font>
