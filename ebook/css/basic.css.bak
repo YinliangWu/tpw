@@ -20,10 +20,16 @@ body{
 	margin:auto;
 }
 
+.flipbook-viewport .flipbook{
+	width:922px;
+	height:1200px;
+	left:-231px;
+	top:-600px;
+}
 
 .flipbook-viewport .page{
-	width:922px;
-	height:600px;
+	width:461px;
+	height:1200px;
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
