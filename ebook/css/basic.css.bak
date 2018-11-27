@@ -28,8 +28,7 @@ body{
 }
 
 .flipbook-viewport .page{	
-	width:704px;
-	height:942px;
+ 
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
