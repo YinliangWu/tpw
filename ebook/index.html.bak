@@ -89,7 +89,7 @@ function loadApp() {
 			
 			// Height
 
-			height:891px,
+			height:891,
 
 			// Elevation
 
