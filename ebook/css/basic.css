@@ -22,12 +22,12 @@ body{
 
 .flipbook-viewport .flipbook{
 	width:922px;
-	height:600px;
+	height:600px;	
 }
 
 .flipbook-viewport .page{
-	width:461px;
-	height:1200px;
+	width:922px;
+	height:600px;
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
