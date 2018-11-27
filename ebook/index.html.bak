@@ -78,32 +78,21 @@
 <script type="text/javascript">
 
 function loadApp() {
-
 	// Create the flipbook
-
 	$('.flipbook').turn({
 			// Width
-	    width:704,
-			 
-			
-					
-			display: "single",
-			
+	    width:$('.flipbook').width(),//704,		 
 			// Height
-
-			height:980,
-
+			height:$('.flipbook').height(),//980,
+					
+			display: "single",	
 			// Elevation
-
 			elevation: 50,
-			
 			// Enable gradients
-
 			gradients: true,
-			
 			// Auto center this flipbook
-
-			autoCenter: true
+			autoCenter: true, 
+			acceleration: true
 
 	});
 }
