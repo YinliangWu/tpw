@@ -4,7 +4,7 @@ body{
 	overflow:hidden;
 	background-color:#fcfcfc;
 	margin:0;
-	padding:0; 
+	padding:0;
 }
 
 .flipbook-viewport{
@@ -16,20 +16,20 @@ body{
 .flipbook-viewport .container{
 	position:absolute;
 	top:50%;
-	left:50%;	
+	left:50%;
 	margin:auto;
 }
 
 .flipbook-viewport .flipbook{
-	width:677px;
-	height:942px;
-	left:-338px;
-	top:-491px;
+	width:922px;
+	height:600px;
+	left:-766px;
+	top:-499px;
 }
 
-.flipbook-viewport .page{	
-  width:677px;
-	height:942px;
+.flipbook-viewport .page{
+	width:461px;
+	height:600px;
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -65,3 +65,5 @@ body{
 	-ms-box-shadow:0 0 20px #ccc;
 	box-shadow:0 0 20px #ccc;
 }
+
+ 
