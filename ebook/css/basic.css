@@ -24,12 +24,11 @@ body{
 	width:704px;
 	height:942px;
 	left:-352px;
-	top:-390px;
+	top:-471px;
 }
 
 .flipbook-viewport .page{	
-	width:704px;
-	height:942px;
+ 
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
