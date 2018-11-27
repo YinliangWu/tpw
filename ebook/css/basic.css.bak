@@ -23,7 +23,8 @@ body{
 .flipbook-viewport .flipbook{
 	width:704px;
 	height:980px;
-	
+	left:-352px;
+	top:-390px;
 }
 
 .flipbook-viewport .page{	
