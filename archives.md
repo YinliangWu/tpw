@@ -11,6 +11,6 @@ title: "中国网事 | 历史文章"
 	{% if year != nyear %} 
     <h2>{{ post.date | date: '%Y' }}</h2> {% endif %} 
 	{% endunless %} 
-    <li><h4><span>{{ post.date | date_to_string }}</span>&raquo;<a href="{{ post.url }}">{{ post.title }}</a></h4></li> 
+    <li><h4> <a href="{{ post.url }}">{{ post.title }}</a></h4>  <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div></li> 
 	{% endfor %} 
 </ul> 
