@@ -1,10 +1,10 @@
----
+О╩©
 layout: default
-title: "н╓йо╢╚ц╫ | CNV4.COM"
+title: "И÷╕Ф╟▐Д╪═Е╙▓ | CNV4.COM"
 ---
 
 <!--
-<h1 class="page-header"> н╘сп╠Д╩╞ё╛╡ейгсю╨Цё║</h1>
+<h1 class="page-header"> н╘т░б╠Д╩╞бёб╛б╡ф┼х⌠:Цё║</h1>
 -->
 
 {% for post in paginator.posts %}
@@ -19,7 +19,7 @@ title: "н╓йо╢╚ц╫ | CNV4.COM"
 			{{ post.content | truncatewords:120 | strip_html}}		
 	 {% endif %} 
 	{% endif %}
-	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}"> х╚нд... </a> </li> </ul>	
+	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}"> х╚о└... </a> </li> </ul>	
 {% endfor %}
 
 <!-- Pager -->
@@ -30,13 +30,13 @@ title: "н╓йо╢╚ц╫ | CNV4.COM"
 	  {% if paginator.previous_page == 1 %}
 		  <li class="previous">
 		    <a href="{{ site.url }}/">
-		      иор╩рЁ
+		      й▐р╩рЁ
 		    </a>
 		  </li>
 	  {% else %}
 		  <li class="previous">
 		    <a href="{{ site.url }}/page{{ paginator.previous_page }}">
-		      иор╩рЁ
+		      й▐р╩рЁ
 		    </a>
 		  </li>
 	  {% endif %} 
@@ -45,7 +45,7 @@ title: "н╓йо╢╚ц╫ | CNV4.COM"
 	{% if paginator.next_page %}
 		  <li class="next">
 	    <a href="{{ site.url }}/page{{ paginator.next_page }}">
-	      обр╩рЁ
+	      п┌р╩рЁ
 	    </a>
 	  </li>
   {% endif %}
