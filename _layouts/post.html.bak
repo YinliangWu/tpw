@@ -27,8 +27,7 @@ comments: true
 
 <hr>
 <!-- Blog Comments -->
-<div class="media">
-  
+<div class="media"> 
   {% include comments.html %}  
 </div>
 
