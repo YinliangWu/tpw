@@ -5,8 +5,7 @@ comments: true
 <!-- Blog Post -->
 <!-- Title -->
 <h2>
-  {{ page.title }} 
-  <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_string }} </div>
+  {{ page.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_string }} </div>
 </h2>
 
 <!-- Author -->
@@ -27,8 +26,7 @@ comments: true
 
 <hr>
 <!-- Blog Comments -->
-<div class="media"> 
-  {% include comments.html %}  
-</div>
-
+{% include comments.html %}  
+ 
+ 
     
