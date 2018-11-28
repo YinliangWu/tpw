@@ -9,6 +9,9 @@ category:
 - 资讯
 ---
 
+<meta property="og:image" content="http://www.cnv4.com/images/sasinsider.jpg" />
+<meta property="og:description" content="程序员快速掌握SAS编程技术宝典" />
+
 内容简介
 
 本书共27 章，分为上下两卷：上卷介绍SAS编程基础与使用方法，是广大程序员快速掌握SAS编程技术的简明开发教程；下卷阐述数据分析的关键基础知识并提供相应SAS代码实现，目的是激发读者兴趣，助其跨越传统编程与数据分析的鸿沟，从程序员华丽转身为数据科学家。  
