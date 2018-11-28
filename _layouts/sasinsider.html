@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="en">  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="高科技资讯传播与分析咨询">
+    <meta name="author" content="">
+    
+    <!-- 90 char for title, 250 char for description(150 for mobile) 
+    https://medium.com/@jonathanusa/how-to-make-sure-your-website-is-social-media-ready-and-why-it-matters-69e760e247b1
+    -->
+    <meta property="og:title" content="ddddd韦氏传媒o" />
+    <meta property="og:description" content="ddddd高科技资讯传播与分析咨询o" />
+    <meta property="og:url" content="https://www.cnv4.com/o" />
+    <meta property="og:image" content="http://www.cnv4.com/images/sasinsider300x300.jpg" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CNV4.COM s" /> 
+     
+     <!-- -->
+     <meta name=”twitter:card” content=”summary_large_image”>
+     <meta name=”twitter:title” content=”Your Awesome Article Title” />
+     <meta name=”twitter:description” content=”This awesome article is really awesome.” />
+     <meta name=”twitter:url” content=”https://yourwebsite.com/your-awesome-article" />
+     <meta name=”twitter:image” content=”http://www.cnv4.com/images/open_graph_logo.png">
+   
+  
+
+    <title> {{ page.title }} </title>
+ 
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="bookmark" href="/favicon.ico" type="image/x-icon"　/>
+    
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>  
+    
+    <!-- 
+    <script src="js/bootstrap.min.js"></script>        
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     
+    
+    <!-- Custom CSS -->
+    <link href="/css/blog.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
+    queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://
+    -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+      </script>
+    <![endif]-->
+	  
+	  <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+       MathJax.Hub.Queue(function() {
+         var all = MathJax.Hub.getAllJax(), i;
+         for(i=0; i < all.length; i += 1) {
+           all[i].SourceElement().parentNode.className += ' has-jax';
+         }
+       });
+    </script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+ 
+
+  </head>
+   
+  <body>
+    <!-- Navigation -->
+    <style type="text/css">
+      .navbar-inner {  background-color: #017CC3; }
+    </style>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">
+              Toggle navigation
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+          </button>
+          <a class="navbar-brand" href="/index.html">首 页</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">            
+            <li><a href="/categories.html">分 类</a></li> 
+            <li><a href="/archives.html">存 档</a></li>
+            <li><a href="/search.html">搜 索</a></li>
+            <li><a href="/about.html">关 于</a>            
+          </ul> 
+        </div>
+        <!-- /.navbar-collapse -->        
+      </div>
+      <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+          {{ content }}
+        </div>
+        <br/>
+        <!-- Blog Sidebar Widgets Column -->
+        <div class="col-md-4">
+          <!-- Blog Search Well -->
+          <div class="well">
+            <h4>
+              站内搜索
+            </h4>
+            <form action="https://www.google.com/search" method="get">
+              <div class="input-group">
+                <input type="text" name="q" class="form-control">
+				<input type="hidden" name="ie" value="UTF-8" />
+				<input type="hidden" name="sitesearch" value="www.cnv4.com" />
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <span class="glyphicon glyphicon-search">
+                    </span>
+                  </button>
+                </span>
+              </div>
+            </form>
+            <!-- /.input-group -->
+          </div>
+          
+          
+          <!-- Blog Categories Well -->
+          <div class="well">
+            <h4>
+              分 类
+            </h4>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="/categories.html#媒介">
+                      媒介
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/categories.html#创作">
+                      创作
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-lg-6">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="/categories.html#代理">
+                      代理                      
+                    </a>
+                  </li> 
+                  <li>
+                    <a href="/categories.html#资讯">
+                      资讯
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.col-lg-6 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          
+          
+          <!-- Blog Links Well -->
+          <div class="well">
+            <h4>
+              相关链接
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://github.com">
+                  GitHub
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Side Widget Well -->
+
+
+        </div>
+      </div>
+      <!-- /.row -->
+      <hr>
+      
+      
+      <!-- Footer -->
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p align="center">
+              版权所有2016 CNV4.COM. <img src="http://www.reliablecounter.com/count.php?page=cnv4.com&digit=style/plain/6/&reloads=0" alt="" title="" border="0" align="center" valign="middle" height="16" /> 保留所有权利。
+            <br>            					    
+            </p>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </footer>
+      
+      
+    </div>
+    <!-- /.container -->
+
+
+  </body>
+</html>
