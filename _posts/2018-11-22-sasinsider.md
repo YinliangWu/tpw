@@ -10,7 +10,7 @@ category:
 ---
 
 <meta name="author" content="高科技资讯传播与分析咨询">
-<meta property="og:image" content="http://www.cnv4.com/images/sasinsider.jpg" />
+<meta property="og:image" content="http://www.cnv4.com/images/sasinsiderx.jpg" />
 <meta property="og:description" content="程序员快速掌握SAS编程技术宝典" />
 
 内容简介
