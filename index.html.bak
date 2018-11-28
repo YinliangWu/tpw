@@ -1,15 +1,12 @@
 ---
 layout: default
-title: "韦氏传媒 | CNV4.COM"
+title: "韦氏传媒 | CNV4.COM-"
 ---
 
-<!--
-<h1 class="page-header"> ΩԐ±仯£¬²Ɗȓ:㣡</h1>
--->
-
 {% for post in paginator.posts %}
-	<h2> {{ post.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div> </h2>
+	<h3> {{ post.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div> </h3>
 	<hr>	
+	<a href="{{ post.url }}" style="text-decoration:none">
 	{% if post.abstract %}
 		{{ post.abstract }}		
 	{% else %}
@@ -19,6 +16,7 @@ title: "韦氏传媒 | CNV4.COM"
 			{{ post.content | truncatewords:120 | strip_html}}		
 	 {% endif %} 
 	{% endif %}
+  </a>
 	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}"> 全文... </a> </li> </ul>	
 {% endfor %}
 
