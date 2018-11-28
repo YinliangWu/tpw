@@ -10,9 +10,9 @@ category:
 
 metadata:
     'og:title': The Rock
-    'og:type': video.movie
-    'og:url': http://www.imdb.com/title/tt0117500/
-    'og:image': http://ia.media-imdb.com/images/rock.jpg
+    'og:type': Website
+    'og:url': http://www.cnv4.com/资讯/2018-11-22-sasinsider.html
+    'og:image': http://www.cnv4.com/images/sasinsider300x300.jpg
 ---
 
 
