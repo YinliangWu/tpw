@@ -6,13 +6,7 @@ tags: [tag1 tag2]
 comments: true 
 abstract: 本书共27 章，分为上下两卷：上卷介绍SAS编程基础与使用方法，是广大程序员快速掌握SAS编程技术的简明开发教程；下卷阐述数据分析的关键基础知识并提供相应SAS代码实现，目的是激发读者兴趣，助其跨越传统编程与数据分析的鸿沟，从程序员华...
 category:
-- 资讯
-
-metadata:
-    'og:title': The Rock
-    'og:type': Website
-    'og:url': http://www.cnv4.com/资讯/2018-11-22-sasinsider.html
-    'og:image': http://www.cnv4.com/images/sasinsider300x300.jpg
+- 资讯 
 ---
 
 
@@ -24,7 +18,7 @@ metadata:
  <a href='http://www.tup.tsinghua.edu.cn/booksCenter/books_index.html'> <img src='/images/sasinsider.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" style="border:none;background:none;" />  </a>  
  
 出版信息与购买: <a class="btn btn-default" href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html">点击进入清华大学出版社</a>
-  {{ page.header.metadata["og:image"] }}
+ 
   
 
  
