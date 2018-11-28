@@ -12,18 +12,7 @@ comments: true
 <hr>
 {{ content }}
 <br/>
-
-<div style="margin-top:10px;margin-bottom:10px">
-  <ul class="pager"> 	
-  {%if page.previous%}
-    <li class="previous"> <a href="{{page.previous.url}}"> 上篇: {{page.previous.title}} </a> </li> 
- 	{%endif%} 
-  {%if page.next%}
-   <li class="next">  <a href="{{page.next.url}}"> 下篇: {{page.next.title}}  </a>  </li>
-  {%endif%} 
-  </ul>
-</div>
-
+ 
 <hr>
 <!-- Blog Comments -->
 {% include comments.html %}  
