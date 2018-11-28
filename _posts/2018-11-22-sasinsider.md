@@ -10,7 +10,7 @@ category:
 ---
 
 <!-- wechat -->
-<img src="images/sasinsider300x300.jpg" style="position:absolute; visibility:hidden;" />
+<img src="/images/sasinsider300x300.jpg" style="position:absolute; visibility:hidden;" />
 
 内容简介
 
