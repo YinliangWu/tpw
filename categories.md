@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: "韦氏咨询 | 分类"
+title: "韦氏传媒 | 分类"
 ---
 
 <ul class="list-unstyled">
