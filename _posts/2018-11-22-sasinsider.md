@@ -8,7 +8,9 @@ abstract: 本书共27 章，分为上下两卷：上卷介绍SAS编程基础与�
 category:
 - 资讯
 ---
-  
+
+<!-- wechat -->
+<img src="images/sasinsider300x300.jpg" style="position:absolute; visibility:hidden;" />
 
 内容简介
 
