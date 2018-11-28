@@ -8,30 +8,7 @@ abstract: 本书共27 章，分为上下两卷：上卷介绍SAS编程基础与�
 category:
 - 资讯
 ---
-
-<meta name="author" content="高科技资讯传播与分析咨询,,,,,,,,,,">
-<meta property="og:image" content="http://www.cnv4.com/images/sasinsiderx.jpg" />
-<meta property="og:description" content="程序员快速掌握SAS编程技术宝典" />
-
- 
-   <!-- http://ogp.me/ --> 
-   <meta property="og:type" content="{{ type }}" /> 
-   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" /> 
-   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" /> 
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" /> 
-    {% if page.image %} 
-    <meta property="og:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.image.path }}" /> 
-    <meta property="og:image:width" content="{{ page.image.width }}" /> 
-    <meta property="og:image:height" content="{{ page.image.height }}" /> 
-    {% endif %} 
-    {% if page.is_post %} 
-    <meta property="og:site_name" content="{{ site.title }}" /> 
-    {% endif %} 
-
-
-
-
-
+  
 
 内容简介
 
