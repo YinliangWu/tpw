@@ -7,7 +7,7 @@ title: "韦氏传媒 | 分类"
 {% for cat in site.categories %} 
   {% if cat[0] != 'blog' %} 
      <a name="{{ cat[0] }}"></a>
-     <h4>{{ cat[0] }} [{{ cat[1].size }}]</h4> 
+     <h3>{{ cat[0] }} [{{ cat[1].size }}]</h3> 
      {% for post in cat[1] %} 
        <li>
          <h4>
