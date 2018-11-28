@@ -1,0 +1,52 @@
+---
+layout: default
+title: "韦氏传媒 | CNV4.COM" 
+---
+
+{% for post in paginator.posts %}
+	<h3> {{ post.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div> </h3>
+	<hr>	
+	<a href="{{ post.url }}" style="text-decoration:none;color:rgb(0,0,0)">
+	{% if post.abstract %}
+		{{ post.abstract }}		
+	{% else %}
+		{% if post.content contains '<!--more-->' %}
+			{{ post.excerpt }}		
+		{% else %}
+			{{ post.content | truncatewords:120 | strip_html}}		
+	 {% endif %} 
+	{% endif %}
+  </a>
+	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}"> 全文... </a> </li> </ul>	
+{% endfor %}
+
+<!-- Pager -->
+<div class="row">
+  <div class="col-md-2 col-md-offset-5">
+		<ul class="pagination">
+		  {% if paginator.previous_page %} 
+			  {% if paginator.previous_page == 1 %}
+				  <li class="previous">
+				    <a href="{{ site.url }}/">
+				      &larr; 更早
+				    </a>
+				  </li>
+			  {% else %}
+				  <li class="previous">
+				    <a href="{{ site.url }}/page{{ paginator.previous_page }}">
+				      &larr; 更早
+				    </a>
+				  </li>
+			  {% endif %} 
+			{% endif %} 
+			
+			{% if paginator.next_page %}
+				  <li class="next">
+			    <a href="{{ site.url }}/page{{ paginator.next_page }}">
+			      更新 &rarr;
+			    </a>
+			  </li>
+		  {% endif %}
+	  </ul>
+  </div>
+</div>

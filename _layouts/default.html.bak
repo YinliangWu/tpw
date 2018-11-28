@@ -12,7 +12,8 @@
     <meta property="og:url" content="https://www.cnv4.com/" />
     <meta property="og:image" content="http://www.cnv4.com/images/open_graph_logo.png" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="CNV4.COM" /> 
+    <meta property="og:site_name" content="CNV4.COM" />
+  
 
     <title> {{ page.title }} </title>
  
