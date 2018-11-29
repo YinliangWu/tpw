@@ -8,7 +8,7 @@ excerpt_separator:  '<!--more-->'
 title: "韦氏传媒"
 description: "专注于高科技资讯传播与咨询，商业情报分析..."
 url: "http://www.cnv4.com"
-image:
+image: 
   path: "http://www.cnv4.com/images/open_graph_logo.png"
   width: 1200
   height: 630
