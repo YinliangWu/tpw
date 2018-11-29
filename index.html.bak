@@ -7,12 +7,15 @@ title: "韦氏传媒 | CNV4.COM"
 	<h3> {{ post.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div> </h3>
 	<hr>	
 	<a href="{{ post.url }}" style="text-decoration:none;color:rgb(0,0,0)">
-	{% if post.content contains '<!--more-->' %}
+	{% if post.abstract %}
+		{{ post.abstract }}		
+	{% else %}
+		{% if post.content contains '<!--more-->' %}
 			{{ post.excerpt }}		
 		{% else %}
 			{{ post.content | truncatewords:120 | strip_html}}		
-	{% endif %} 
-	
+	 {% endif %} 
+	{% endif %}
   </a>
 	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}"> 全文... </a> </li> </ul>	
 {% endfor %}
