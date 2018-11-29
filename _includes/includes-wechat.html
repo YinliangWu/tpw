@@ -1,1 +1,1 @@
-﻿<img src="{% if page.imagex %}{{ page.imagex.path }}{% else %}{% if page.image %}{{ page.image.path }}{% else %}{{ site.image.path }}{% endif %}{% endif %}" style="position:absolute; visibility:hidden" />
+﻿<div style="display:none"><img src="{% if page.imagex %}{{ page.imagex.path }}{% else %}{% if page.image %}{{ page.image.path }}{% else %}{{ site.image.path }}{% endif %}{% endif %}" /></div>
