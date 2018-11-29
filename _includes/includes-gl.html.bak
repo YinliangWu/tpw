@@ -24,12 +24,12 @@
   {% if page.update %}
     "dateModified": "{{ page.update | date_to_xmlschema }}",
   {% endif %}
-  {% if page.image %} 
+  {% if page.image %}
     "image": {
       "@type": "ImageObject",
-      "url": "{% if page.image %}{{ page.image.path }}{% else %}{{ site.image.path }}{% endif %}",
-      "width": {% if page.image %}{{ page.image.width }}{% else %}{{ site.image.width }}{% endif %},
-      "height": {% if page.image %}{{ page.image.height }}{% else %}{{ site.image.height }}{% endif %}
+      "url": "{{ page.url | prepend: site.url }}{{ page.image.path }}",
+      "width": {{ page.image.width }},
+      "height": {{ page.image.height }}
   },
   {% endif %}
     "author": {
