@@ -10,6 +10,8 @@ image:
   path: http://www.cnv4.com/images/sasinsider_small.jpg
   width: 1213
   height: 850
+imagex: 
+  path: http://www.cnv4.com/images/sasinsider300x300.jpg
 comments: true 
 ---
 
