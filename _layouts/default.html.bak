@@ -136,6 +136,7 @@
       	<!-- Wetchat-->
         {% include include_wechat.html %}  
 
+
         <!-- Blog Entries Column -->
         <div class="col-md-8">
           {{ content }}
