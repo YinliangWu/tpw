@@ -15,7 +15,7 @@ title: "韦氏传媒 | CNV4.COM"
 		
 		</div> </h3>
 	<hr>	
-	<a href="{{ post.url }}" style="text-decoration:none;color:rgb(0,0,0)">
+	<a href="{{ post.url }}" style="text-decoration:none;color:rgb(0,0,0)" class="post-link">
 	{% if post.content contains site.excerpt_separator %}
 			{{ post.excerpt }}		
 		{% else %}
