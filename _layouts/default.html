@@ -210,7 +210,7 @@
           <!-- Tag Well -->
           <div class="well">
             <h4>
-              Tags
+              <span class="glyphicon glyphicon-tags"></span> Tags
             </h4>
             <ul class="list-unstyled">
               <li>
@@ -222,7 +222,7 @@ The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
 {% for tag in tags %}
-	<a href="#{{ tag | slugify }}" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-tag"></span> {{ tag }} </a>
+	<a href="{{ site.url }}{{ site.tag_page }}##{{ tag | slugify }}" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-tag"></span> {{ tag }} </a>
 {% endfor %}
                  
                  
