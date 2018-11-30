@@ -15,10 +15,19 @@ comments: true
   <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}"> <span class="leancloud-visitors-count"></span>
   </span>
 {% endif %} 
-</div>
-  
+</div> 
   
 </h2>
+
+<!-- Tags -->
+{% if page.tags %} | 
+  {% for tag in page.tags %}
+    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+  {% endfor %}
+  {% endif %}
+  
+
+
 
 <!-- Author -->
 <hr>
