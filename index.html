@@ -33,27 +33,26 @@ title: "韦氏传媒 | CNV4.COM"
 		<ul class="pager">
 		  {% if paginator.previous_page %} 
 			  {% if paginator.previous_page == 1 %}
-				  <li class="previous" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;width: 36px;height: 36px;line-height: 36px;">
+				  <li class="previous">
 				    <a href="{{ site.url }}/">
 				      &lt;&lt;
 				    </a>
 				  </li>
 			  {% else %}
-				  <li class="previous" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;width: 36px; height: 36px; line-height: 36px;">
+				  <li class="previous" >
 				    <a href="{{ site.url }}/page{{ paginator.previous_page }}" >
 				      &lt;&lt;
 				    </a>
 				  </li>
 			  {% endif %} 
-			{% endif %} 
+			{% endif %}
 			
 {% if paginator.total_pages > 1 %} 
-      第 {{paginator.page}} 页/共 {{paginator.total_pages}} 页 
-{% endif %}
-			
-			
+  第 {{paginator.page}} 页/共 {{paginator.total_pages}} 页 
+{% endif %} 
+
 			{% if paginator.next_page %}
-				  <li class="next" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;width: 36px; height: 36px;line-height: 36px;">
+				  <li class="next" >
 			    <a href="{{ site.url }}/page{{ paginator.next_page }}" >
 			      &gt;&gt;
 			    </a>
