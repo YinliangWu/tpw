@@ -19,5 +19,4 @@ leancloud :
   enable: true
   
 tag_page: tags.html
-
  

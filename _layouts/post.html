@@ -19,8 +19,8 @@ comments: true
   
 </h2>
 
-<!-- Tags -->
-{% if page.tags %} | 
+<!-- Tags of current page -->
+{% if page.tags %} 
   {% for tag in page.tags %}
     <a href="{{ site.url }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
   {% endfor %}
