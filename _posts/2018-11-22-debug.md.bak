@@ -24,11 +24,11 @@ comments: true
 出版信息与购买: <a class="btn btn-default" href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html">点击进入清华大学出版社</a>
 
 {% if site.leancloud.enable %}
-       <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
-        <span class="post-meta-divider">|</span>
-        <span class="post-meta-item-text"> Hits:  </span>
-        <span class="leancloud-visitors-count"></span>
-       </span>
-   {% endif %}
+<span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+<span class="post-meta-divider">|</span>
+<span class="post-meta-item-text"> Hits:  </span>
+<span class="leancloud-visitors-count"></span>
+</span>
+{% endif %}
  
  
