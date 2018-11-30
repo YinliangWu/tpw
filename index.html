@@ -9,13 +9,13 @@ title: "韦氏传媒 | CNV4.COM"
 		<!-- Counter placeholder -->
 {% if site.leancloud.enable %}
   <br><span class="glyphicon glyphicon-eye-open"></span>
-  <span id="{{ post.url }}" class="leancloud_visitors2" data-flag-title="{{ post.title }}"> <span class="leancloud-visitors-count"></span>
+  <span id="{{ post.url }}" class="leancloud_visitors_readyonly" data-flag-title="{{ post.title }}"> <span class="leancloud-visitors-count"></span>
   </span>
 {% endif %} 
 		
 		</div> </h3>
 	<hr>	
-	<a href="{{ post.url }}" style="text-decoration:none;color:rgb(0,0,0)" class="post-link">
+	<a href="{{ post.url }}" style="text-decoration:none;color:rgb(0,0,0)">
 	{% if post.content contains site.excerpt_separator %}
 			{{ post.excerpt }}		
 		{% else %}

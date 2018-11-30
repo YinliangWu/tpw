@@ -7,7 +7,7 @@
     function showHitCount(Counter) {
         var query = new AV.Query(Counter);
         var entries = [];
-        var $visitors = $(".leancloud_visitors2");
+        var $visitors = $(".leancloud_visitors_readyonly");
         $visitors.each(function () {
             entries.push( $(this).attr("id").trim() );
         });
