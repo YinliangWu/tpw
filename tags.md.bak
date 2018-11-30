@@ -33,7 +33,6 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 {% endfor %}
 
 
-
 {% comment %}
 =======================
 The purpose of this snippet is to list all your posts posted with a certain tag.
@@ -51,7 +50,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 		 <small>{{ post.date | date_to_string }}</small>
 		 </a>
 		 {% for tag in post.tags %}
-			 <a class="tag" href="/tag/#{{ tag | slugify }}">{{ tag }}</a>
+			 <a class="tag" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
 		 {% endfor %}
 		 </h3>
 		 </li>

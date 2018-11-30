@@ -18,6 +18,6 @@ leancloud :
   app_key  :  WL4XvXJ5fOSYBcPfW8rRsvBD
   enable: true
   
-tag_page: tags.html
+tag_page: /tags.html
 
  
