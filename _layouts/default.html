@@ -220,21 +220,17 @@
         <div class="row">
           <div class="col-lg-12">
             <p align="center">
-              版权所有2018 CNV4.COM. 保留所有权利。
+              <span class="glyphicon glyphicon-grain"></span> CNV4.COM 版权所有 2018, 保留所有权利。
               <!-- <img src="http://www.reliablecounter.com/count.php?page=cnv4.com&digit=style/plain/6/&reloads=0" alt="" title="" border="0" align="center" valign="middle" height="16" />  -->
               <!-- Counter placeholder -->
-
-{% if page.layout != 'post' %}
-{% if site.leancloud.enable %}
-  <br>
-  <span class="glyphicon glyphicon-grain"></span>
-  <br>
-  <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}"> <span class="leancloud-visitors-count"></span>
+ 
+{% if site.leancloud.enable %}    
+  <div style="visibility:hidden">
+  <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}"> 
+  	<span class="leancloud-visitors-count"></span>
   </span>
+  </div>
 {% endif %} 
-{% endif %} 
-
-
              
             <br>            					    
             </p>
