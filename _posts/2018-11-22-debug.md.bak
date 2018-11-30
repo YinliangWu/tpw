@@ -23,7 +23,6 @@ comments: true
  
 出版信息与购买: <a class="btn btn-default" href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html">点击进入清华大学出版社</a>
 
-<!--
 <span id="http://www.cloudchou.com" class="leancloud_visitors meta_data_item" data-flag-title="">
      <span class="post-meta-item-icon">
        <span class="octicon octicon-eye"></span> 
@@ -32,14 +31,7 @@ comments: true
      <span class="leancloud-visitors-count"></span>
      <span class="post-meta-item-text">次浏览</span>
 </span>
---> 
+ 
   
-{% if site.leancloud.enable %}
-<div>
-  <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
-    Visited:
-    <a href="#"><span class="leancloud-visitors-count"></span>次</a>
-  </span>
-</div>
-{% endif %}
+
  
