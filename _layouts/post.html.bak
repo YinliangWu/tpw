@@ -7,14 +7,13 @@ comments: true
 <!-- Blog Post -->
 <!-- Title -->
 <h2>
-  {{ page.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_string }} 
+  {{ page.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_string }} </div>
   
 {% if site.leancloud.enable %}
   <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
   <span class="glyphicon glyphicon-eye-open"></span> <span class="leancloud-visitors-count"></span>
   </span>
 {% endif %} 
-</div>
   
   
 </h2>
