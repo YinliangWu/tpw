@@ -9,11 +9,10 @@ comments: true
 <h2>
   {{ page.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_string }} 
  
- <!-- Counter placeholder -->
+<!-- Counter placeholder -->
 {% if site.leancloud.enable %}
-  <br>
-  <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
-  <span class="glyphicon glyphicon-eye-open"></span> <span class="leancloud-visitors-count"></span>
+  <br><span class="glyphicon glyphicon-eye-open"></span>
+  <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}"> <span class="leancloud-visitors-count"></span>
   </span>
 {% endif %} 
 </div>
