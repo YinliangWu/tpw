@@ -30,18 +30,18 @@ title: "韦氏传媒 | CNV4.COM"
 <!-- Pager -->
 <div class="row">
   <div class="col-md-2 col-md-offset-5">
-		<ul class="pagination">
+		<ul class="pager">
 		  {% if paginator.previous_page %} 
 			  {% if paginator.previous_page == 1 %}
-				  <li class="previous">
+				  <li class="previous" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;">
 				    <a href="{{ site.url }}/">
-				      &larr; 更早
+				      &lt;
 				    </a>
 				  </li>
 			  {% else %}
 				  <li class="previous">
-				    <a href="{{ site.url }}/page{{ paginator.previous_page }}">
-				      &larr; 更早
+				    <a href="{{ site.url }}/page{{ paginator.previous_page }}" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;">
+				      &lt;
 				    </a>
 				  </li>
 			  {% endif %} 
@@ -49,8 +49,8 @@ title: "韦氏传媒 | CNV4.COM"
 			
 			{% if paginator.next_page %}
 				  <li class="next">
-			    <a href="{{ site.url }}/page{{ paginator.next_page }}">
-			      更新 &rarr;
+			    <a href="{{ site.url }}/page{{ paginator.next_page }}" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;">
+			      &gt;
 			    </a>
 			  </li>
 		  {% endif %}
