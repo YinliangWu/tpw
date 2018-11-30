@@ -13,7 +13,7 @@ image:
   width: 1200
   height: 630
 
-lean_cloud :
+leancloud :
   app_id   :  mKAIeIqN43aXYqu8DEvS2Hav-gzGzoHsz
   app_key  :  WL4XvXJ5fOSYBcPfW8rRsvBD
   enable: true
