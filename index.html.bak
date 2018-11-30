@@ -23,7 +23,7 @@ title: "韦氏传媒 | CNV4.COM"
 	{% endif %} 
 	
   </a>
-	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}" style="background:#303030;color:#ffffff;border:1px solid #303030;"> 阅读全文 </a> </li> </ul>	
+	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 阅读全文 </a> </li> </ul>	
 {% endfor %}
 
 <!-- Pager -->
