@@ -7,7 +7,7 @@ excerpt: 本书共27 章，分为上下两卷：上卷介绍SAS编程基础与�
 category:
 - 资讯 
 image: 
-  path: http://www.cnv4.com/images/sasinsider1200x630.png
+  path: http://www.cnv4.com/images/sasinsider.png
   width: 1200
   height: 630
 comments: true 
@@ -19,7 +19,7 @@ comments: true
 
 书中演示代码力图简洁清晰地解释相关概念，追求大道至简。本书兼顾编程技术与数据分析，期待程序员、信息处理与统计分析人员以及对数据分析科学感兴趣的读者都能从本书中获益良多，循序渐进地掌握数据分析的要义和精髓，从数据中获取洞见与智慧。    
 <!--more-->
-<img src='/images/sasinsider.png' alt="《SAS 技术内幕：从程序员到数据科学家》" style="border:none;background:none;widht:100%;height:auto;" />  
+<img src='/images/sasinsider1200x630.png' alt="《SAS 技术内幕：从程序员到数据科学家》" style="border:none;background:none;widht:100%;height:auto;" />  
  
 出版信息与购买: <a class="btn btn-default" href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html">点击进入清华大学出版社</a>
 
