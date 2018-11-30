@@ -4,16 +4,7 @@ title: "韦氏传媒 | CNV4.COM"
 ---
 
 {% for post in paginator.posts %}
-	<h3> {{ post.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} 
-		
-		<!-- Counter placeholder -->
-{% if site.leancloud.enable %}
-  <br><span class="glyphicon glyphicon-eye-open"></span>
-  <span id="{{ page.url }}" class="post-link" data-flag-title="{{ page.title }}"> <span class="leancloud-visitors-count"></span>
-  </span>
-{% endif %} 
-		
-		</div> </h3>
+	<h3> {{ post.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div> </h3>
 	<hr>	
 	<a href="{{ post.url }}" style="text-decoration:none;color:rgb(0,0,0)">
 	{% if post.content contains site.excerpt_separator %}
