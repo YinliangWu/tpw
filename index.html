@@ -4,7 +4,7 @@ title: "韦氏传媒 | CNV4.COM"
 ---
 
 {% for post in paginator.posts %}
-<div style="width: 90%">
+ 
 	<h3> {{ post.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} 
 		
 		<!-- Counter placeholder -->
@@ -24,9 +24,7 @@ title: "韦氏传媒 | CNV4.COM"
 	{% endif %} 
 	
   </a>
-	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 阅读全文 </a> </li> </ul>	
-	
-</div>
+	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 阅读全文... </a> </li> </ul>	
 {% endfor %}
 
 <!-- Pager -->
