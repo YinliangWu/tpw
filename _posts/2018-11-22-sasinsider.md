@@ -21,5 +21,4 @@ comments: true
 <!--more-->
 <img src='/images/sasinsider.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" style="border:none;background:none;width:100%;height:auto;" />  
  
-出版信息与购买: <a class="btn btn-default" href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html">点击进入清华大学出版社</a>
-
+出版信息与购买: <ul class="pager"> <li class="previous"> <a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 点击进入清华大学出版社 </a> </li> </ul>	
