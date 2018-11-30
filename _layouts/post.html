@@ -10,6 +10,7 @@ comments: true
   {{ page.title }} <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_string }} 
   
 {% if site.leancloud.enable %}
+  <br>
   <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
   <span class="glyphicon glyphicon-eye-open"></span> <span class="leancloud-visitors-count"></span>
   </span>
