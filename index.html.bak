@@ -30,7 +30,7 @@ title: "韦氏传媒 | CNV4.COM"
 <!-- Pager -->
 <div class="row">
   <div class="col-md-2 col-md-offset-5">
-		<ul class="pager" style="width: 150px;vertical-align:middle;">
+		<ul class="pager" style="width: 150px">
 		  {% if paginator.previous_page %} 
 			  {% if paginator.previous_page == 1 %}
 				  <li class="previous">
@@ -48,7 +48,7 @@ title: "韦氏传媒 | CNV4.COM"
 			{% endif %}
 			
 {% if paginator.total_pages > 1 %} 
-   <span style="nowrap; height: 32px; ">第 {{paginator.page}} 页/共 {{paginator.total_pages}} 页 </span> 
+   <span style="nowrap; height: 32px; position:absolute; margin:auto; left:0; right:0; top:0; bottom:0;">第 {{paginator.page}} 页/共 {{paginator.total_pages}} 页 </span> 
 {% endif %} 
 
 			{% if paginator.next_page %}
