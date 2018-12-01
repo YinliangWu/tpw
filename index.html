@@ -30,16 +30,16 @@ title: "韦氏传媒 | CNV4.COM"
 <!-- Pager -->
 <div class="row">
   <div class="col-md-2 col-md-offset-5">
-		<ul class="pager" style="width: 150px;vertical-align:middle;">
+		<ul class="pager" style="width: 150px">
 		  {% if paginator.previous_page %} 
 			  {% if paginator.previous_page == 1 %}
-				  <li class="previous">
+				  <li class="previous" style="height: 16px; ">
 				    <a href="{{ site.url }}/" title="上一页">
 				      <span class="glyphicon glyphicon-chevron-left"></span>  
 				    </a>
 				  </li>
 			  {% else %}
-				  <li class="previous" >
+				  <li class="previous" style="height: 16px; >
 				    <a href="{{ site.url }}/page{{ paginator.previous_page }}" title="上一页" >
 				      <span class="glyphicon glyphicon-chevron-left"></span> 
 				    </a>
@@ -48,11 +48,11 @@ title: "韦氏传媒 | CNV4.COM"
 			{% endif %}
 			
 {% if paginator.total_pages > 1 %} 
-   <span style="nowrap; height: 32px; ">第 {{paginator.page}} 页/共 {{paginator.total_pages}} 页 </span> 
+   <span style="nowrap; ">第 {{paginator.page}} 页/共 {{paginator.total_pages}} 页 </span> 
 {% endif %} 
 
 			{% if paginator.next_page %}
-				  <li class="next" >
+				  <li class="next" style="height: 16px; >
 			    <a href="{{ site.url }}/page{{ paginator.next_page }}" title="下一页">
 			       <span class="glyphicon glyphicon-chevron-right"></span> 
 			    </a>
