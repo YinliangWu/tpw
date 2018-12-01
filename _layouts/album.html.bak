@@ -10,7 +10,7 @@ comments: true
                 {{ page.title }}
             </h3>
             <p>
-            	{{ page.abstract }}
+            	{{ page.excerpt }}
             </p>
         </div>
  
