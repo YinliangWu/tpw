@@ -48,7 +48,7 @@ title: "韦氏传媒 | CNV4.COM"
 			{% endif %}
 			
 {% if paginator.total_pages > 1 %} 
-  <span style="nowrap">第 {{paginator.page}} 页/共 {{paginator.total_pages}} 页 </span>
+  第 {{paginator.page}} 页/共 {{paginator.total_pages}} 页 
 {% endif %} 
 
 			{% if paginator.next_page %}
