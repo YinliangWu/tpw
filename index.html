@@ -34,14 +34,14 @@ title: "韦氏传媒 | CNV4.COM"
 		  {% if paginator.previous_page %} 
 			  {% if paginator.previous_page == 1 %}
 				  <li class="previous">
-				    <a href="{{ site.url }}/">
-				      &lt;&lt;
+				    <a href="{{ site.url }}/" title="上一页">
+				      <span class="glyphicon glyphicon-chevron-left"></span>  
 				    </a>
 				  </li>
 			  {% else %}
 				  <li class="previous" >
-				    <a href="{{ site.url }}/page{{ paginator.previous_page }}" >
-				      &lt;&lt;
+				    <a href="{{ site.url }}/page{{ paginator.previous_page }}" title="上一页" >
+				      <span class="glyphicon glyphicon-chevron-left"></span> 
 				    </a>
 				  </li>
 			  {% endif %} 
@@ -53,8 +53,8 @@ title: "韦氏传媒 | CNV4.COM"
 
 			{% if paginator.next_page %}
 				  <li class="next" >
-			    <a href="{{ site.url }}/page{{ paginator.next_page }}" >
-			      &gt;&gt;
+			    <a href="{{ site.url }}/page{{ paginator.next_page }}" title="下一页">
+			       <span class="glyphicon glyphicon-chevron-right"></span> 
 			    </a>
 			  </li>
 		  {% endif %}
