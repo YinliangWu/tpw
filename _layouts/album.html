@@ -11,15 +11,13 @@ comments: true
             </p>
          
         	{% for photo in page.photos %}
-        	
-        	<div class="col-md-3"> 
+        	 
                <a href="#" class="thumbnail">
                 <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="carousel-inner img-responsive img-rounded">
                </a> <div class="caption">{{ photo.label }}</div> 
-          </div>
+           
           {% endfor %}           
-        </div>
-    </div> <!-- /container --> 
+         
  
  
     
