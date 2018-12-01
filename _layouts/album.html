@@ -4,11 +4,11 @@ comments: true
 --- 
  
         	{% for photo in page.photos %}
-        	 <div style="width:30%">
+        	  
                <a href="#" class="thumbnail">
-                <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="carousel-inner img-responsive img-rounded">
-               </a> <div class="caption">{{ photo.label }}</div> 
-           <div>
+                <img alt="{{ photo.alt }} {{ photo.label }} "  src="{{ photo.url }}" class=" img-responsive img-rounded">
+               </a>  
+           
           {% endfor %}           
          
  
