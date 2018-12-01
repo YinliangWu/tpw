@@ -12,7 +12,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 {% endcomment %}
 
 {% for tag in tags %}
-  <a name="{{ tag }}" style="position: relative; top: -44px; display: block; height: 0; overflow: hidden;"></a> 
+  <a name="{{ tag }}" style="position: relative; top: -70px; display: block; height: 0; overflow: hidden;"></a> 
   <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
   <ul>
   {% for post in site.posts %}
