@@ -149,15 +149,16 @@
             	{{ page.excerpt }}
             </p>
         </div>
- 
-        <ul class="row first">
+        <div class="row" >
         	{% for photo in page.photos %}
-            <li>
+        	
+        	<div class="col-md-3"> 
+               <a href="#" class="thumbnail">
                 <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="carousel-inner img-responsive img-rounded">
-                <div class="text">{{ photo.label }}</div>
-            </li>
+               </a> <div class="caption">{{ photo.label }}</div> 
+          </div>
           {% endfor %}           
-        </ul>
+        </div>
     </div> <!-- /container --> 
       <!-- /.row -->
       <hr>
