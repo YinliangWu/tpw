@@ -13,15 +13,14 @@ comments: true
             	{{ page.excerpt }}
             </p>
         </div>
- 
-        <ul class="row first">
+  
         	{% for photo in page.photos %}
-            <li>
+          
                 <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="img-fluid">
                 <div class="text">{{ photo.label }}</div>
-            </li>
+             
           {% endfor %}           
-        </ul>
+        
     </div> <!-- /container --> 
  
  

@@ -4,7 +4,7 @@ comments: true
 --- 
  
       <div class="container">
-     	  <br><br>
+     	   
         <div class="row" style="text-align:center; border-bottom:1px dashed #ccc;  padding:0 0 20px 0; margin-bottom:40px;">
             <h3 style="font-family:'Bree Serif', arial; font-weight:bold; font-size:30px;">
                 {{ page.title }}
@@ -17,7 +17,7 @@ comments: true
         <ul class="row first">
         	{% for photo in page.photos %}
             <li>
-                <img alt="{{ photo.alt }}"  src="{{ photo.url }}">
+                <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="img-fluid">
                 <div class="text">{{ photo.label }}</div>
             </li>
           {% endfor %}           
