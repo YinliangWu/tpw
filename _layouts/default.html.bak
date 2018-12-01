@@ -92,6 +92,9 @@
     });
   </script> 
 
+  
+  </head>
+ 
 <style>
     @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
@@ -115,10 +118,7 @@
       padding:12px;
       background:#fff;
     } 
-  </style>
-  
-  </head>
-   
+  </style>  
    
   <body style="padding-top: 70px; padding-bottom: 70px;" >
     <!-- Navigation -->
