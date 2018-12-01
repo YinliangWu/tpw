@@ -7,7 +7,7 @@ comments: true
   
         	{% for photo in page.photos %}
           
-                <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="img-responsive">
+                <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="img-responsive; width: 100%;">
                 <div class="text">{{ photo.label }}</div>
              
           {% endfor %}           
