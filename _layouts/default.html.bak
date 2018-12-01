@@ -162,7 +162,7 @@
                           
 {% for cat in site.categories %} 
    
-     <a name="{{ cat[0] }}" href="/categories.html#{{ cat[0] }}" class="btn btn-default"><span class="glyphicon glyphicon-folder-open"></span> {{ cat[0] }} </a>
+     <a name="{{ cat[0] }}" href="/categories.html#{{ cat[0] }}" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-folder-open"></span> {{ cat[0] }} </a>
       
 {% endfor %} 
                   
