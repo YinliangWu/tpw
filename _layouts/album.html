@@ -3,19 +3,12 @@ layout: post
 comments: true
 --- 
  
-            <h3 style="font-family:'Bree Serif', arial; font-weight:bold; font-size:30px;">
-                {{ page.title }}
-            </h3>
-            <p>
-            	{{ page.excerpt }}
-            </p>
-         
         	{% for photo in page.photos %}
-        	 
+        	 <div style="width:30%">
                <a href="#" class="thumbnail">
                 <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="carousel-inner img-responsive img-rounded">
                </a> <div class="caption">{{ photo.label }}</div> 
-           
+           <div>
           {% endfor %}           
          
  

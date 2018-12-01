@@ -17,8 +17,7 @@ comments: true
                </a> <div class="caption">{{ photo.label }}</div> 
            
           {% endfor %}           
-        </div>
-    </div> <!-- /container --> 
+         
  
  
     
