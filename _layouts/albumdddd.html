@@ -1,10 +1,10 @@
 ﻿--- 
-layout: post 
+layout: default 
 comments: true
 --- 
 
-  <div class="container">
-     	  <br><br>
+
+<div class="container">
         <div class="row" style="text-align:center; border-bottom:1px dashed #ccc;  padding:0 0 20px 0; margin-bottom:20px;">
             <h3 style="font-family:'Bree Serif', arial; font-weight:bold; font-size:30px;">
                 {{ page.title }}
@@ -18,12 +18,9 @@ comments: true
         	
         	<div class="col-md-3"> 
                <a href="#" class="thumbnail">
-                <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="carousel-inner img-responsive img-rounded">
+                <img alt="{{ photo.alt }}"  src="{{ photo.url }}" class="img-responsive img-rounded">
                </a> <div class="caption">{{ photo.label }}</div> 
           </div>
           {% endfor %}           
-        </div>
+        </divs>
     </div> <!-- /container --> 
- 
- 
-    
