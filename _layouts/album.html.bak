@@ -141,7 +141,7 @@
     <!-- Page Content --> 
      <div class="container">
      	  <br><br>
-        <div class="row" style="text-align:center; border-bottom:1px dashed #ccc;  padding:0 0 20px 0; margin-bottom:40px;">
+        <div class="row" style="text-align:center; border-bottom:1px dashed #ccc;  padding:0 0 20px 0; margin-bottom:20px;">
             <h3 style="font-family:'Bree Serif', arial; font-weight:bold; font-size:30px;">
                 {{ page.title }}
             </h3>
@@ -153,7 +153,7 @@
         <ul class="row first">
         	{% for photo in page.photos %}
             <li>
-                <img alt="{{ photo.alt }}"  src="{{ photo.url }}" style="height:768px;">
+                <img alt="{{ photo.alt }}"  src="{{ photo.url }}" style="  width: auto;height: 600px;">
                 <div class="text">{{ photo.label }}</div>
             </li>
           {% endfor %}           
