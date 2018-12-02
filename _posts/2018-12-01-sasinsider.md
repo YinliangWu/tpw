@@ -14,7 +14,7 @@ comments: true
 ---
 
 
-<img src='/images/sasinsider_x.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" style="border:none;background:none;width:100%;height:auto;" />  
+<img src='/images/sasinsider_x.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" style="border:none;background:none;width:100%;height:10%;" />  
 
 2018年12月1日，巫银良先生新书《SAS 技术内幕：从程序员到数据科学家》由清华大学出版社出版。
 
