@@ -14,13 +14,13 @@ comments: true
 ---
 
 
-<img src='/images/sasinsider_x.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" class="img-responsive;" />  
+<img src='/images/sasinsider_x.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" class="img-responsive" style="margin:0 auto;"/>
 
 2018年12月1日，巫银良先生新书《SAS 技术内幕：从程序员到数据科学家》由清华大学出版社出版。
 
 巫银良，1976 年生于福建上杭，1992年考入北京大学，2000 年研究生毕业后加入用友软件，2005年加盟 SAS 中国研发中心。巫银良先生拥有近 20 年计算机行业研发和管理经验，在企业应用和商业分析领域具有深厚的技术功底。专注于研发管理和项目实践，涉及领域包括人工智能、大数据与可视化分析、金融量化分析与自动交易、商业智能与互联网、大型商业软件研发管理等。
 
-** 内容简介
+## 内容简介
 
 《SAS 技术内幕：从程序员到数据科学家》是巫银良的第一本个人著作，全书共 27 章，分为上下两卷：上卷介绍SAS编程基础与使用方法，是广大程序员快速掌握SAS编程技术的简明开发教程；下卷阐述数据分析的关键基础知识并提供相应SAS代码实现，目的是激发读者兴趣，助其跨越传统编程与数据分析的鸿沟，从程序员华丽转身为数据科学家。  
 
@@ -28,4 +28,4 @@ comments: true
 <!--more-->
 
  
-出版信息与购买:   <a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 点击进入清华大学出版社 </a>  
+## 出版信息与购买:   <a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 点击进入清华大学出版社 </a>  
