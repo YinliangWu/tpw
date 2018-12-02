@@ -18,12 +18,12 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
  <ul class="list-unstyled">
 {% for post in site.posts %}
   {% if post.tags contains tag %}
-  <li>
-    <h4>
-      <a href="{{ post.url }}"> {{ post.title }}</a>
-      <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div
-    </h4>
-    </li>
+   <li>
+      <h4>
+        <a href="{{ post.url }}"> {{ post.title }}</a>
+        <div class="post-date"><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </div
+     </h4>
+    </li> 
   {% endif %}
 {% endfor %}
 </ul>
