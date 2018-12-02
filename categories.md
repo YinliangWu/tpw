@@ -2,7 +2,6 @@
 layout: default
 title: "韦氏传媒 | 分类"
 ---
-
 {% for cat in site.categories %} 
 {% if cat[0] != 'blog' %} 
 <a name="{{ cat[0] }}" style="position: relative; top: -60px; display: block; height: 0; overflow: hidden;"></a>
