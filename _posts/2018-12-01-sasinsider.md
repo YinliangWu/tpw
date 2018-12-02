@@ -15,7 +15,7 @@ comments: true
 
 <img src='/images/sasinsider_x.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" class="img-responsive" style="margin:0 auto;"/>
 
-2018年12月1日，SAS 中国研发中心技术总监巫银良先生新书《SAS 技术内幕：从程序员到数据科学家》由 **[清华大学出版社](http://www.tup.tsinghua.edu.cn)** 出版， **[全国新华书店](https://www.xhsd.com)** 经销。
+2018年12月1日，SAS 中国研发中心技术总监巫银良先生新书《SAS 技术内幕：从程序员到数据科学家》由 [清华大学出版社](http://www.tup.tsinghua.edu.cn) 出版， [全国新华书店](https://www.xhsd.com) 经销。
 
 **巫银良**，1976 年生于福建上杭，1992年考入[北京大学](http://www.pku.edu.cn)，2000 年研究生毕业后加入用友软件，2005年加盟 SAS 中国研发中心。巫银良先生拥有近 20 年计算机行业研发和管理经验，在企业应用和商业分析领域具有深厚的技术功底。专注于研发管理和项目实践，涉及领域包括人工智能、大数据与可视化分析、金融量化分析与自动交易、商业智能与互联网、大型商业软件研发管理等。
 <br/><br/>  
