@@ -213,7 +213,7 @@ The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
 {% for tag in tags %}
-	<a href="{{ site.url }}{{ site.tag_page }}#{{ tag | slugify }}" class="btn btn-default " style="padding: 10px 15px 18px 15px;"><span class="glyphicon glyphicon-tag"></span> {{ tag }} </a>
+	<a href="{{ site.url }}{{ site.tag_page }}#{{ tag | slugify }}" class="btn btn-default "><span class="glyphicon glyphicon-tag"></span> {{ tag }} </a>
 {% endfor %}
                  
                  
