@@ -170,7 +170,7 @@
               <span class="glyphicon glyphicon-briefcase"></span> 分类
             </h4>
             <ul class="list-unstyled">
-              <li>
+              <li style="line-height:30px">
                           
 {% for cat in site.categories %} 
    
@@ -204,7 +204,7 @@
               <span class="glyphicon glyphicon-tags"></span> Tags
             </h4>
             <ul class="list-unstyled">
-              <li>
+              <li style="line-height:30px">
 {% include includes-tags.html %}
            
 {% comment %}
@@ -213,7 +213,7 @@ The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
 {% for tag in tags %}
-	<a href="{{ site.url }}{{ site.tag_page }}#{{ tag | slugify }}" class="btn btn-default " ><span class="glyphicon glyphicon-tag"></span> {{ tag }} </a> &nbsp;
+	<a href="{{ site.url }}{{ site.tag_page }}#{{ tag | slugify }}" class="btn btn-default " ><span class="glyphicon glyphicon-tag"></span> {{ tag }} </a>  
 {% endfor %}
                  
                  
