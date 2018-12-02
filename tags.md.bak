@@ -14,7 +14,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 {% for tag in tags %}
 
  <a name="{{ tag }}" style="position: relative; top: -100px; display: block; height: 0; overflow: hidden;"></a> 
- <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
+ <h3>{{ tag }}</h3>
  <ul class="list-unstyled">
 {% for post in site.posts %}
   {% if post.tags contains tag %}
