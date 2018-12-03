@@ -17,17 +17,11 @@ title: "韦氏传媒 | CNV4.COM"
 		</div> </h3>
 	<hr>	
 	<a href="{{ post.url }}" style="text-decoration:none;color:rgb(0,0,0)">
-		{% assign abstract = page.excerpt | strip_newlines %}
-		{% if abstract  == site.excerpt_separator  %}
-		  {% if post.content contains site.excerpt_separator %}		    
-		    {{ assign lines = post.content | split: site.excerpt_separator | strip_html}}		
-		    {{ lines[0] }}
-		  {% else %}
-		    {{ post.content | truncatewords:120 | strip_html}}		
-		  {% endif %}
-		{% else %}		
-		  {{ post.excerpt }}				
-	  {% endif %} 
+	{% if post.content contains site.excerpt_separator %}
+			{{ post.excerpt }}		
+		{% else %}
+			{{ post.content | truncatewords:120 | strip_html}}		
+	{% endif %} 
 	
   </a>
 	<ul class="pager"> <li class="previous"> <a href="{{ post.url }}" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 阅读全文... </a> </li> </ul>	
