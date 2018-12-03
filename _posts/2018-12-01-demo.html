@@ -196,83 +196,7 @@
         <!-- Blog Sidebar Widgets Column -->
         <div class="col-md-4">
           <!-- Blog Search Well -->
-          <div class="well">
-            <h4>
-              站内搜索
-            </h4>
-            <form action="https://www.google.com/search" method="get">
-              <div class="input-group">
-                <input type="text" name="q" class="form-control">
-				<input type="hidden" name="ie" value="UTF-8" />
-				<input type="hidden" name="sitesearch" value="www.cnv4.com" />
-                <span class="input-group-btn">
-                  <button class="btn btn-default" type="submit">
-                    <span class="glyphicon glyphicon-search">
-                    </span>
-                  </button>
-                </span>
-              </div>
-            </form>
-            <!-- /.input-group -->
-          </div> 
           
-          <!-- Blog Categories Well -->
-          <div class="well">
-            <h4>
-              <span class="glyphicon glyphicon-briefcase"></span> 分类
-            </h4>
-            <ul class="list-unstyled">
-              <li >
-                          
-{% for cat in site.categories %} 
-   
-     <a name="{{ cat[0] }}" href="/categories.html#{{ cat[0] }}" class="btn btn-outline-info"><span class="glyphicon glyphicon-folder-open"></span> {{ cat[0] }} </a>
-      
-{% endfor %} 
-                  
-                 
-              </li>
-            </ul>
-          </div>
-          
-          
-          <!-- Blog Links Well -->
-          <div class="well">
-            <h4>
-              相关链接
-            </h4>
-            <ul class="list-unstyled">
-              <li>
-                <a href="https://github.com">
-                  GitHub
-                </a>
-              </li>
-            </ul>
-          </div>
-          
-          <!-- Tag Well -->
-          <div class="well">
-            <h4>
-              <span class="glyphicon glyphicon-tags"></span> Tags
-            </h4>
-            <ul class="list-unstyled">
-              <li >
-{% include includes-tags.html %}
-           
-{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-	<a href="{{ site.url }}{{ site.tag_page }}#{{ tag | slugify }}" class="btn btn-outline-warning" ><span class="glyphicon glyphicon-tag"></span> {{ tag }} </a>  
-{% endfor %}
-                 
-                 
-              </li>
-            </ul>
-          </div>
-          <!-- Side Widget Well -->
 
           <!-- Blog Links Well -->
           <!--
@@ -287,30 +211,6 @@ The purpose of this snippet is to list all the tags you have in your site.
       <hr>
       
       
-      <!-- Footer -->
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <p align="center">
-              <span class="glyphicon glyphicon-grain"></span> CNV4.COM 版权所有 2018, 保留所有权利。
-              <!-- <img src="http://www.reliablecounter.com/count.php?page=cnv4.com&digit=style/plain/6/&reloads=0" alt="" title="" border="0" align="center" valign="middle" height="16" />  -->
-              <!-- Counter placeholder --> 
-
- 
-{% if site.leancloud.enable %}
-  <div style="visiblity:hidden">
-  <span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}"> <span class="leancloud-visitors-count"></span>
-  </span>
-</div>
-{% endif %}  
-		
-            <br>            					    
-            </p>
-          </div>
-          <!-- /.col-lg-12 -->
-        </div>
-        <!-- /.row -->
-      </footer>
       
       
     </div>
