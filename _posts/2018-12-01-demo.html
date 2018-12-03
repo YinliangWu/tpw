@@ -187,8 +187,6 @@
     </div> <!-- /container -->
   
 </div>
-
-
 <!-- Blog Sidebar Widgets Column -->
         <div class="col-md-4">
           <!-- Blog Search Well -->
@@ -277,21 +275,45 @@ The purpose of this snippet is to list all the tags you have in your site.
           </div>
           -->
 
-        </div> 
-
-
-
-
+        </div>
+      </div>
       <!-- /.row -->
       <hr>
       
       
+      <!-- Footer -->
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p align="center">
+              <span class="glyphicon glyphicon-grain"></span> CNV4.COM 版权所有 2018, 保留所有权利。
+              <!-- <img src="http://www.reliablecounter.com/count.php?page=cnv4.com&digit=style/plain/6/&reloads=0" alt="" title="" border="0" align="center" valign="middle" height="16" />  -->
+              <!-- Counter placeholder --> 
+
+ 
+{% if site.leancloud.enable %}
+  <div style="visiblity:hidden">
+  <span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}"> <span class="leancloud-visitors-count"></span>
+  </span>
+</div>
+{% endif %}  
+		
+            <br>            					    
+            </p>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </footer>
       
       
     </div>
     <!-- /.container -->
 
- 
+
+
+<!-- Blog Comments -->
+{% include includes-ct.html %} 
 
   </body>
 </html>
