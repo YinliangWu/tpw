@@ -3,6 +3,7 @@ layout: default
 title: "韦氏传媒 | 关于"
 ---
 
+<div class="well">
 韦氏传媒是一家综合性的互联网新商业媒体, 专注于高科技行业资讯传播、分析和咨询，以及商业价值挖掘。<br/>
 公司也提供新媒体营销推广服务，商务合作：<a href="mailto:cnv4.com@gmail.com">cnv4.com@gmail.com </a> <br>
 
@@ -16,3 +17,4 @@ title: "韦氏传媒 | 关于"
 
 <img src="/images/logo.png" align="left"/><br clear="left" />
 <font color='gray' align='center'> </font>
+</div>
