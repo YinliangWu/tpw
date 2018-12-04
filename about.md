@@ -1,5 +1,5 @@
 ﻿---
-layout: default2
+layout: default
 title: "韦氏传媒 | 关于"
 ---
 
@@ -13,4 +13,4 @@ title: "韦氏传媒 | 关于"
 <li><a href="http://www.igeekbar.com">iGeekBar</a></li>
 </ul>
  
-商务合作：<a href="mailto:cnv4.com@cnv4.com">cnv4.com@gmail.com </a> <br>
+商务合作：<a href="mailto:cnv4.com@gmail.com">cnv4.com@gmail.com </a> <br>
