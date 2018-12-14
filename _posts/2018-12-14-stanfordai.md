@@ -15,7 +15,6 @@ comments: true
 
 ####  导读
 
-
 2018 年人工智能指数报告由 AI Index 机构推出，其使命是用数据说话，跟踪，整理，提取并可视化人工智能相关的数据；希望为决策者，研究人员，管理人员，记者和公众提供数据和分析的综合资源，建立关于人工智能这一复杂领域的直观印象。
 
 该报告的指导委员会包括斯坦福大学，SRI 国际，MIT，OpenAI，Partnership On AI, 麦肯锡全球研究所，哈佛大学等机构，委员会主席为来自斯坦福大学的 Yoav Shoham，他是前任谷歌首席科学家，也是此份报告的负责人。
@@ -27,7 +26,7 @@ comments: true
 
 今年的报告，从学术、工业、开源、政府等方面详细介绍了人工智能发展的现状，并且记录了计算机视觉、自然语言理解等领域的技术进展。
 
-
+<br/>
 #### 要点：
 
 
@@ -59,12 +58,17 @@ comments: true
 
     美国AI工作岗位的应聘者中71%为男性。
 
-
+<br/>
 #### 下载：
 
-##### [AI Index](http://aiindex.org)
+  ##### [AI Index](http://aiindex.org)
 
-##### [本地下载](http://www.cnv4.com/images/aiindex/AI Index 2018 Annual Report.pdf)
+  ##### [本地下载](http://www.cnv4.com/images/aiindex/AI Index 2018 Annual Report.pdf)
 
+<br/>
+
+<h5 class="red-text text-center">长按下图关注公众号 "慧识力量"</h5>
+
+<img src='/images/powertoknow_x.png' alt="关注慧识力量" class="img-responsive" style="margin:0 auto;"/>
 
 
