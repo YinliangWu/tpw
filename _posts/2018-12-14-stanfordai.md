@@ -14,6 +14,7 @@ comments: true
 ---
 
 ####  导读
+
 2018 年人工智能指数报告由 AI Index 机构推出，其使命是用数据说话，跟踪，整理，提取并可视化人工智能相关的数据；希望为决策者，研究人员，管理人员，记者和公众提供数据和分析的综合资源，建立关于人工智能这一复杂领域的直观印象。
 
 该报告的指导委员会包括斯坦福大学，SRI 国际，MIT，OpenAI，Partnership On AI, 麦肯锡全球研究所，哈佛大学等机构，委员会主席为来自斯坦福大学的 Yoav Shoham，他是前任谷歌首席科学家，也是此份报告的负责人。
@@ -24,6 +25,7 @@ comments: true
 人工智能的多样性不仅仅是地理上的，今天超过 50% 的 AI 成员伙伴关系是非盈利组织，包括 ACLU, 牛津大学人类未来研究所和联合国发展计划署。人们对人工智能领域进展的重要性在性别和种族多样性上的认识也有所提高。例如我们看到越来越多的组织参与 AI4ALL 和机器学习中的女性（WiML），鼓励参与代表性不足的群体。
 
 今年的报告，从学术、工业、开源、政府等方面详细介绍了人工智能发展的现状，并且记录了计算机视觉、自然语言理解等领域的技术进展。
+
 
 #### 要点：
 
@@ -57,9 +59,8 @@ comments: true
 
 
 #### 下载：
-    [AI Index](http://aiindex.org)
-    [本地下载](http://www.cnv4.com/images/aiindex/AI Index 2018 Annual Report.pdf)
+  [AI Index](http://aiindex.org)
+  [本地下载](http://www.cnv4.com/images/aiindex/AI Index 2018 Annual Report.pdf)
 
 
 
-http://aiindex.org/
