@@ -2,7 +2,7 @@
 layout: post
 title: 人工智能指数 (AI Index) 2018 年度报告
 author:  
-tags: [ 资讯 ]
+tags: [ 资讯, 人工智能]
 excerpt: 
 category:
 - 资讯 
@@ -14,6 +14,7 @@ comments: true
 ---
 
 ####  导读
+
 
 2018 年人工智能指数报告由 AI Index 机构推出，其使命是用数据说话，跟踪，整理，提取并可视化人工智能相关的数据；希望为决策者，研究人员，管理人员，记者和公众提供数据和分析的综合资源，建立关于人工智能这一复杂领域的直观印象。
 
@@ -28,6 +29,7 @@ comments: true
 
 
 #### 要点：
+
 
 一、美国AI综合实力最强
 
@@ -59,8 +61,10 @@ comments: true
 
 
 #### 下载：
-  [AI Index](http://aiindex.org)
-  [本地下载](http://www.cnv4.com/images/aiindex/AI Index 2018 Annual Report.pdf)
+
+##### [AI Index](http://aiindex.org)
+
+##### [本地下载](http://www.cnv4.com/images/aiindex/AI Index 2018 Annual Report.pdf)
 
 
 
