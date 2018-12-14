@@ -60,11 +60,9 @@ comments: true
 <br/>
 #### 下载：
 
-    长按下图 “识别图中二维码” 关注公众号 “慧识力量” ，发送 "ai2018" 获取斯坦福大学《人工智能指数 2018 年度报告》完整报告，共 94 页，文件大小为 3.25 MB。
-
 <br/>
 
-<h5 class="red-text text-center">长按下图关注公众号 "慧识力量"</h5>
+<h5 class="red-text text-center">长按下图关注公众号 "<b>慧识力量</b>"，发送 "<b>ai2018</b>" 获取 94 页完整报告</h5>
 
 <img src='/images/powertoknow_x.png' alt="关注慧识力量" class="img-responsive" style="margin:0 auto;"/>
 
