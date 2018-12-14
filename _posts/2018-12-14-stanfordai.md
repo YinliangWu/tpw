@@ -61,7 +61,6 @@ comments: true
 #### 下载：
 
     [AI Index](http://aiindex.org)
-    <br/>
     [本地下载](http://www.cnv4.com/images/aiindex/AI Index 2018 Annual Report.pdf)
 
 <br/>
