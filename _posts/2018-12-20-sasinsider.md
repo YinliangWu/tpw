@@ -11,6 +11,7 @@ image:
   width: 1200
   height: 630
 comments: true 
+keywords: SAS技术内幕, SAS, 技术内幕, SAS 编程
 ---
 
 <img src='/images/sasinsider_x.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" class="img-responsive" style="margin:0 auto;"/>
