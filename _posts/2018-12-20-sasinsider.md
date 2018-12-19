@@ -15,7 +15,7 @@ comments: true
 
 <img src='/images/sasinsider_x.jpg' alt="《SAS 技术内幕：从程序员到数据科学家》" class="img-responsive" style="margin:0 auto;"/>
 
-2018年12月1日，SAS 中国研发中心技术总监巫银良先生新书《SAS 技术内幕：从程序员到数据科学家》由 [清华大学出版社](http://www.tup.tsinghua.edu.cn) 出版， [全国新华书店](https://www.xhsd.com) 经销。
+2018年12月，SAS 中国研发中心技术总监巫银良先生新书《SAS 技术内幕：从程序员到数据科学家》由 [清华大学出版社](http://www.tup.tsinghua.edu.cn) 出版， [全国新华书店](https://www.xhsd.com) 经销。
   
 <br/>
 #### 内容简介
