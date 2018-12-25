@@ -38,8 +38,14 @@ keywords: SAS技术内幕, SAS, 技术内幕, SAS 编程
 <img src='/images/powertoknow_x.png' alt="关注慧识力量" class="img-responsive" style="margin:0 auto;"/>
 
 <br/>   
-#### 购买渠道: 
+#### 购买渠道: **ISBN**: 9787302502784 
 
-**ISBN**: 9787302502784 , 点击 <a class="btn btn-info" href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 进入清华大学出版社 </a>  
+点击 <a class="btn btn-info" href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07768401.html" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 进入清华大学出版社 </a>  
+
+点击 <a class="btn btn-info" href="https://list.tmall.com/search_product.htm?q=SAS%BC%BC%CA%F5%C4%DA%C4%BB&type=p&spm=a220m.1000858.a2227oh.d100&from=.list.pc_1_searchbutton" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 进入 TMALL 天猫 </a>  
+
+点击 <a class="btn btn-info" href="https://search.jd.com/Search?keyword=SAS%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95&enc=utf-8&wq=SAS%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95&pvid=b7a36203121e4c69bbcca8804a3119f8" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 进入 JD 京东商城 </a>  
+
+点击 <a class="btn btn-info" href="https://s.taobao.com/search?q=SAS%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20181225&ie=utf8" style="background:#e67e22;color:#ffffff;border:1px solid #e67e22;"> 进入淘宝网</a>  
 
 <br/>   
