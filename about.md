@@ -12,7 +12,6 @@ title: "韦氏传媒 | 关于"
 <li class="list-group-item"><a href="http://gsas.harvard.edu">Harvard University: The Graduate School of Arts and Sciences</a></li>
 <li class="list-group-item"><a href="http://analytics.ncsu.edu">North Carolina State University: Institute for Advanced Analytics</a></li>
 <li class="list-group-item"><a href="http://www.ds.pku.edu.cn">北京大学大数据科学研究中心</a></li>
-<li class="list-group-item"><a href="http://www.igeekbar.com">iGeekBar</a></li>
 </ul>
 
 <img src="/images/logo.png" align="left"/><br clear="left" />
