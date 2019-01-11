@@ -7,10 +7,11 @@ excerpt: 今年的统计数据包括以下会议/期刊：ACL、EMNLP、NAACL、
 category:
 - 资讯 
 image: 
-  path: http://www.cnv4.com/images/aiindex2018.png
+  path: http://www.cnv4.com/images/sasinsider1200x630.png
   width: 1200
   height: 630
 comments: true 
+keywords: 人工智能, 机器学习, 自然语言处理
 ---
 
 ####  导读
