@@ -3,8 +3,7 @@ layout: post
 title: 2018 ML和 NLP 学术论文统计
 author:  
 tags: [ 资讯, 人工智能, 机器学习, 自然语言处理]
-excerpt: 
-今年的统计数据包括以下会议/期刊：ACL、EMNLP、NAACL、EACL、COLING、TACL、CL、CoNLL、NeurIPS、ICML、ICLR 和 AAAI。这种选择是为了覆盖机器学习和语言技术领域最知名和高级别的会议。和去年相比，我移除了 SemEval，因为它很大一部分是关注共享任务的论文，我在其它会议中也没有包括这些主题。此外，我添加了 AAAI，它在过去的排名中并没有出现。NeurIPS 去年改名了（原名为 NIPS），在这里将使用最新的名称。
+excerpt: 今年的统计数据包括以下会议/期刊：ACL、EMNLP、NAACL、EACL、COLING、TACL、CL、CoNLL、NeurIPS、ICML、ICLR 和 AAAI。这种选择是为了覆盖机器学习和语言技术领域最知名和高级别的会议。和去年相比，我移除了 SemEval，因为它很大一部分是关注共享任务的论文，我在其它会议中也没有包括这些主题。此外，我添加了 AAAI，它在过去的排名中并没有出现。NeurIPS 去年改名了（原名为 NIPS），在这里将使用最新的名称。
 category:
 - 资讯 
 image: 
